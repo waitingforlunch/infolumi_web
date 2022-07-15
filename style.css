@@ -1,65 +1,92 @@
 body {
-    background-color: aquamarine;
+    background-color: whitesmoke;
     font-family: 'Archivo', sans-serif;
 }
-header {
+
+section {
+    flex: 1;
     display: flex;
+    height: 1080px;
+}
+
+section .left {
+    width: 960px;
+    padding-left: 140px;
+}
+
+header {
     height: 200px;
+    display: flex;
     align-items: center;
 }
 
-header .logo {
-    padding: 73px 140px 80px;
-    /* flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
+
+.title {
+    font-size: 81px;
+    font-weight: lighter;
+    letter-spacing: 1.215px;
+    line-height: 88px;
+    margin-top: 208px;
+    color: #213317;
 }
 
-header nav {
+.call-to-action {
+    margin-top: 62px;
+    font-size: 21px;
+    font-weight: bold;
+    color: #213317;
+    width: 130px;
+    height: 45px;
+    padding: 8px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    border: 2px solid #213317;
+    border-radius: 5px;
+}
+
+.call-to-action:hover {
+    background-color: #213317;
+    color: whitesmoke;
+}
+
+section .right {
+    width: 960px;
+    background-image: url(./hero_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+nav {
+    height: 200px;
+    display: flex;
     flex: 1;
-    display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: right;
+    padding-right: 80px;
+
+
 }
 
-header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-header nav ul li {
+nav ul li {
     display: inline-block;
     font-size: 27px;
-
+    
 }
 
-header nav ul li a {
+nav ul li a {
     display: inline-block;
     color: white;
     padding: 46px;
-    /* padding: 76px 46px 83.5px 46px; */
 }
 
-header nav ul li a:hover {
-    color: white;
-}
-
-header nav ul .active a {
+nav ul li a:hover {
     color: white;
     text-decoration: underline;
 }
 
-.hero-section {
-    display: flex;
-    height: 880px;
+nav ul .active a {
+    color: white;
+    text-decoration: underline;
 }
 
-.hero-section .image {
-    flex: 1;
-    background-image: url(./hero_image.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
