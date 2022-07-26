@@ -1,3 +1,7 @@
+:root {
+    --infolumi-color: #213317;
+}
+
 body {
     background-color: whitesmoke;
     font-family: 'Archivo', sans-serif;
@@ -16,8 +20,11 @@ section .left {
 
 header {
     height: 200px;
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
 
@@ -27,14 +34,14 @@ header {
     letter-spacing: 1.215px;
     line-height: 88px;
     margin-top: 208px;
-    color: #213317;
+    color: var(--infolumi-color);
 }
 
 .call-to-action {
     margin-top: 62px;
     font-size: 21px;
     font-weight: bold;
-    color: #213317;
+    color: var(--infolumi-color);
     width: 130px;
     height: 45px;
     padding: 8px;
