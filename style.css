@@ -136,3 +136,90 @@ footer {
     padding-left: 55px;
     padding-right: 55px;
 }
+
+/* 여기서부터 About페이지  */
+
+#about-page-1 {
+    margin-top: 250px;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    color: #213317;
+    position: relative;
+}
+
+.about-page-1-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.about-page-1-container1-left {
+    width: 50%;
+}
+
+p {
+    font-size: 25px;
+    /* font-weight: lighter; */
+    margin-top: 50px;
+}
+
+.about-page-1-container1-left img {
+    margin-top: 150px;
+}
+
+.about-page-1-container1-right img {
+    margin-bottom: 150px;
+}
+
+.about-page-1-container2 {
+    margin-top: 250px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #213317;
+    /* font-weight: ; */
+}
+
+/* .about-page-1-container2-left {
+    display: flex
+} */
+
+div ul {
+    margin-top: 30px;
+    list-style: none;
+    font-size: 25px;
+    font-weight: lighter;
+    padding: 0;
+}
+
+div ul li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: list-item;
+}
+
+#about-page-2 {
+    margin-top: 250px;
+}
+
+.about-page-2-container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-page-2-container2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.about-page-2-container3 {
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
