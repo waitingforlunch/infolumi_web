@@ -15,6 +15,12 @@ header {
     background-color: white;
 }
 
+/* .container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+} */
+
 .logo {
     width: 130px;
 }
@@ -184,6 +190,11 @@ h2 {
     font-size: 20px;
     color: #213317;
     /* font-weight: ; */
+}
+
+p2 {
+    font-size: 25px;
+    /* font-weight: lighter; */
 }
 
 /* .about-page-1-container2-left {
