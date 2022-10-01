@@ -152,6 +152,10 @@ nav ul li a {
     margin-top: 12.625em;
 }
 
+.header-padding{
+    padding-top: 10rem;
+}
+
 #about-page-1 {
     margin-top: 0;
 }
@@ -223,32 +227,40 @@ footer {
 
 
 @media (max-width:910px) {
-    .main-page {
+    .main-page, .about-page{
         flex-direction: column;
     }
-
-    .main-page-1-text-container {
+    .h1 {
+        font-size: 4.375rem;
+    }
+    .main-page-text-container {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+    #main-page-1-text-container {
+        width: 100%;
+    }
+    .main-page-image-container {
         width: 100%;
     }
     #main-page-1-image-container {
-        width: 100%;
+        padding-top: 0;
     }
-
     #main-page-2-image-container {
         order: 2;
     }
-
-    .main-page-2-text-container {
-        order: 1;
-        margin-bottom: 5rem;
+    .about-page-container-left{
         width: 100%;
     }
-
-    .main-page-3-text-container {
-        margin-bottom: 5rem;
+    .about-page-container-right{
         width: 100%;
     }
-
+    #about-page-5-container-left{
+        width: 100%;
+    }
+    #about-page-4-container-left{
+        order: 2;
+    }
 }
 
 
@@ -257,21 +269,8 @@ footer {
         flex-direction: column;
         justify-content: flex-end;
     }
-
-    .main-page-h1 {
+    .h1 {
         font-size: 2.5rem;
     }
-
-    /* .call-to-action {
-        font-size: 0.9rem;
-        font-weight: bold;
-        color: #213317;
-        padding-top: 2.5em;
-    }
-
-    .call-to-action img {
-        padding-left: 1em;
-    } */
-
 }
 
