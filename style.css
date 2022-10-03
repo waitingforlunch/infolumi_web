@@ -1,5 +1,7 @@
 /* Common */
-
+html {
+    font-size: 16px;
+}
 body {
     font-family: 'Archivo', sans-serif;
 }
@@ -44,11 +46,11 @@ section {
 }
 
 .text {
-    font-size: 1.5625rem;
+    font-size: 1.25rem;
 }
 
 .text-kr {
-    font-size: 1.5625rem;
+    font-size: 1.25rem;
     font-weight: 300;
     font-family: 'Noto+Sans+KR';
 }
@@ -120,7 +122,7 @@ img {
 header {
     display: flex;
     width: 100%;
-    height: 7.5rem;
+    height: 6rem;
     justify-content: center;
     align-items: center;
     background-color: white;
@@ -342,6 +344,11 @@ nav ul li a {
     padding-bottom: 10rem;
 }
 
+#contact-c-1 {
+    display: flex;
+    padding-bottom: 0rem;
+}
+
 #contact-null-1 {
     width: 15%;
 }
@@ -365,26 +372,6 @@ nav ul li a {
 }
 
 /* footer */
-/* header {
-    display: flex;
-    width: 100%;
-    height: 7.5rem;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    position: fixed;
-}
-
-.header-container {
-    width: 86%;
-    max-width: 1920px;
-    margin-left: 4.375rem;
-    margin-right: 6rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
-
 footer {
     display: flex;
     width: 100%;
@@ -422,39 +409,157 @@ footer {
 
 
 @media (max-width:910px) {
-    .main-page, .about-page{
+    html {
+        font-size: 12px;
+    }
+    section{
         flex-direction: column;
+        align-items: center;
     }
     .h1 {
         font-size: 4.375rem;
     }
-    .main-page-text-container {
+    #index-tc-1 {
         width: 100%;
         margin-bottom: 5rem;
     }
-    #main-page-1-text-container {
+    #index-ic-1 {
         width: 100%;
     }
-    .main-page-image-container {
+    #index-tc-2 {
         width: 100%;
-    }
-    #main-page-1-image-container {
-        padding-top: 0;
-    }
-    #main-page-2-image-container {
+        margin-bottom: 5rem;
         order: 2;
     }
-    .about-page-container-left{
+    #index-ic-2 {
         width: 100%;
     }
-    .about-page-container-right{
+    #index-tc-3 {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+    #index-ic-3 {
         width: 100%;
     }
-    #about-page-5-container-left{
+
+
+    /* About */
+
+    #about-c-1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #about-tc-1 {
+        padding-bottom: 5rem;
+    }
+    #about-ic-1-1 {
+        width: 90%;
+        padding-bottom: 3rem;
+    }
+    #about-ic-1-2 {
+        width: 90%;
+    }   
+    #about-2 {
+        display: inline-block;
+    }
+    #about-tc-2 {
+        width: auto;
+    }
+    #about-ic-3 {
         width: 100%;
     }
-    #about-page-4-container-left{
+    #about-tc-3 {
+        width: 100%;
+    }
+    #about-tc-4 {
+        width: 100%;
         order: 2;
+    }
+    #about-ic-4 {
+        width: 100%;
+    }
+    #about-5 {
+        display: inline-block;
+    }
+    #about-tc-5 {
+        width: auto;
+    }
+
+
+    /* service */
+    #service-tc-1 {
+        width: 100%;
+        padding-bottom: 3rem;
+    }
+    #service-c-2 {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #service-tc-2-1 {
+        width: 100%;
+        padding-bottom: 3rem;
+    }
+    #service-tc-2-2 {
+        width: 60%;
+    }
+    #service-3 {
+        flex-direction: column;
+    }
+    #service-ic-3 {
+        width: 80%;
+        padding-bottom: 3rem;
+    }
+    #service-c-3 {
+        width: 100%;
+    }
+    #service-tc-3-1 {
+        padding-bottom: 5rem;
+    }
+    /* #service-tc-3-2 {
+    
+    } */
+    #service-4 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #service-ic-4 {
+        width: 100%;
+        padding-bottom: 3rem;
+    }
+    #service-c-4 {
+        width: 100%;
+    }
+    #service-tc-4-1 {
+        width: 100%;
+        padding-bottom: 5rem;
+    }
+    #service-tc-4-2 {
+        width: 60%;
+    }
+
+    /* Contact */
+    #contact-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #contact-header{
+        padding-bottom: 5rem;
+    }
+    #contact-c-1 {
+        width: auto;
+        flex-direction: column;
+    }
+    #contact-null-1 {
+        width: 0%;
+    }
+    #contact-tc-1 {
+        width: 100%;
     }
 }
 
