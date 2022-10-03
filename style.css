@@ -166,7 +166,7 @@ nav ul li a {
     width: 80%;
     max-width: 1536px;
     margin: 0 auto;
-    min-height: 80vh;
+    min-height: 72vh;
 }
 
 /* index page */
@@ -342,7 +342,7 @@ nav ul li a {
 #contact-1 {
     padding-top: 10rem;
     border-bottom: #213317 1px solid;
-    padding-bottom: 10rem;
+    /* padding-bottom: 10rem; */
 }
 
 #contact-c-1 {
