@@ -419,7 +419,6 @@ footer {
     }
 }
 
-
 @media (max-width:910px) {
     html {
         font-size: 12px;
@@ -581,8 +580,11 @@ footer {
 
 @media (max-width: 450px) {
     nav ul {
-        flex-direction: column;
+        flex-direction: row;
         justify-content: flex-end;
+    }
+    .logo {
+        width: 6.125rem;
     }
     .section-margin-1, .section-margin-2 {
         margin-bottom: 10rem;
