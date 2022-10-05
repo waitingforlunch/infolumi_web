@@ -11,6 +11,10 @@ section {
     display: flex;
 }
 
+a:hover, a:active {
+    background-color: #213317;
+}
+
 .h1 {
     font-size: 5.625em;
     font-weight: 300;
