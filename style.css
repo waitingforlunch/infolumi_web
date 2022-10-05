@@ -131,7 +131,9 @@ header {
     align-items: center;
     background-color: white;
     position: fixed;
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
 }
+
 
 .header-container {
     width: 86%;
@@ -431,7 +433,6 @@ footer {
     }
     #index-tc-1 {
         width: 100%;
-        margin-bottom: 5rem;
     }
     #index-ic-1 {
         width: 100%;
@@ -439,10 +440,11 @@ footer {
     #index-tc-2 {
         width: 100%;
         margin-bottom: 5rem;
-        order: 2;
+        order: 1;
     }
     #index-ic-2 {
         width: 100%;
+        order: 2;
     }
     #index-tc-3 {
         width: 100%;
