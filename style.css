@@ -582,5 +582,11 @@ footer {
         flex-direction: column;
         justify-content: flex-end;
     }
+    .section-margin-1, .section-margin-2 {
+        margin-bottom: 10rem;
+    }
+     /* {
+        margin-bottom: 10rem;
+    } */
 }
 
