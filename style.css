@@ -518,7 +518,7 @@ footer {
         padding-bottom: 3rem;
     }
     #service-tc-2-2 {
-        width: 60%;
+        width: auto;
     }
     #service-3 {
         flex-direction: column;
@@ -533,9 +533,9 @@ footer {
     #service-tc-3-1 {
         padding-bottom: 5rem;
     }
-    /* #service-tc-3-2 {
-    
-    } */
+    #service-tc-3-2 {
+        width: auto;
+    }
     #service-4 {
         flex-direction: column;
         justify-content: center;
@@ -553,7 +553,7 @@ footer {
         padding-bottom: 5rem;
     }
     #service-tc-4-2 {
-        width: 60%;
+        width: auto;
     }
 
     /* Contact */
