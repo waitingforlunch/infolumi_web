@@ -594,5 +594,12 @@ footer {
     #contact-1 {
         padding-top: 5rem;
     }
+    nav ul {
+        font-size: 1rem;
+    }
+    .header-container {
+        margin-left: 4rem;
+        margin-right: 3rem;
+    }
 }
 
