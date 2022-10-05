@@ -381,9 +381,14 @@ nav ul li a:hover {
 
 .call-to-action img {
     padding-left: 0.68em;
+    width: 1.25em;
 }
+/* .call-to-action img {
+
+} */
 
 /* footer */
+
 footer {
     display: flex;
     width: 100%;
