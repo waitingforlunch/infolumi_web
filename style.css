@@ -12,6 +12,7 @@ section {
 }
 
 a:hover, a:active {
+    text-decoration: none;
     color: #213317;
 }
 
@@ -172,6 +173,7 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #213317;
+    text-decoration: underline;
     text-underline-offset: 5px;
 }
 
