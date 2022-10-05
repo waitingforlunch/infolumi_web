@@ -585,6 +585,10 @@ footer {
     .section-margin-1, .section-margin-2 {
         margin-bottom: 10rem;
     }
+    .header-padding{
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+    }
      /* {
         margin-bottom: 10rem;
     } */
