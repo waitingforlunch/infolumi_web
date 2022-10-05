@@ -419,11 +419,11 @@ footer {
 }
 
 @media (max-width: 1366px) {
-    nav ul li {
-        margin-left: 3rem;
-    }
     html {
         font-size: 13px;
+    }
+    nav ul li {
+        margin-left: 3rem;
     }
 }
 
@@ -435,6 +435,7 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
     .h1 {
         font-size: 4.375rem;
     }
@@ -590,6 +591,7 @@ footer {
     nav ul {
         flex-direction: row;
         justify-content: flex-end;
+        font-size: 1.25rem;
     }
     .logo {
         width: 6.125rem;
@@ -603,9 +605,6 @@ footer {
     }
     #contact-1 {
         padding-top: 5rem;
-    }
-    nav ul {
-        font-size: 1.25rem;
     }
     .header-container {
         margin-left: 4rem;
