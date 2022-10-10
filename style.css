@@ -54,14 +54,17 @@ a:hover, a:active {
 }
 
 .text {
+    font-family: 'Raleway';
     font-size: 1.25rem;
-    font-weight: 300;
+    font-weight: 100;
+    color: black;
 }
 
 .text-kr {
+    font-family: 'Noto+Sans+KR';
     font-size: 1.25rem;
     line-height: 1.8;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .footer-text{
@@ -155,6 +158,7 @@ header {
 }
 
 nav ul {
+    font-family: 'Archivo';
     list-style: none;
     font-size: 1.3rem;
     display: flex;
