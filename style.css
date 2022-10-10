@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: 'Archivo', 'Noto+Sans+KR', sans-serif;
+    font-family: 'Archivo', 'Noto Sans KR', sans-serif;
 }
 
 section {
@@ -61,10 +61,10 @@ a:hover, a:active {
 }
 
 .text-kr {
-    font-family: 'Noto+Sans+KR';
+    font-family: 'Noto Sans KR';
     font-size: 1.25rem;
     line-height: 1.8;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 .footer-text{
